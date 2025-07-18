@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "zazPFzTljHytojEqPzlDuKy2+8IaAj+uftwQdp2nNjE=",
+  "Source": "LinkUp",
+  "BasePath": "_content/LinkUp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LinkUp\\wwwroot",
+      "Source": "LinkUp",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\site.css",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "39q78razqp",
+      "Integrity": "pzRJfZyzn5ZnVipm5nTa4SfvZ8plOkAmOaLolRrpqVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/chat#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yq332hliw5",
+      "Integrity": "uiuLBCAHiRBG/MOx+0wa5wqS9z08bNZAOkNstohREuE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\index.html",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wvip4j7pkm",
+      "Integrity": "JHQDO0PgY4TxXK3VyBOynz8BKMMMoXi1w3H+7nNrv4E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.html"
+    },
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/dist/browser/signalr#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqu3aupeo3",
+      "Integrity": "rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/libman#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "chy3vibzq9",
+      "Integrity": "sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\libman.json"
+    },
+    {
+      "Identity": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\site.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yudtxe6toy",
+      "Integrity": "akT/5iPU70gyrX1GcrIBSxPphwMG7Zl19WpRMS5N9ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.39q78razqp.css",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pzRJfZyzn5ZnVipm5nTa4SfvZ8plOkAmOaLolRrpqVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 18:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39q78razqp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pzRJfZyzn5ZnVipm5nTa4SfvZ8plOkAmOaLolRrpqVg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pzRJfZyzn5ZnVipm5nTa4SfvZ8plOkAmOaLolRrpqVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 18:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pzRJfZyzn5ZnVipm5nTa4SfvZ8plOkAmOaLolRrpqVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uiuLBCAHiRBG/MOx+0wa5wqS9z08bNZAOkNstohREuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:35:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uiuLBCAHiRBG/MOx+0wa5wqS9z08bNZAOkNstohREuE="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.yq332hliw5.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uiuLBCAHiRBG/MOx+0wa5wqS9z08bNZAOkNstohREuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:35:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yq332hliw5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uiuLBCAHiRBG/MOx+0wa5wqS9z08bNZAOkNstohREuE="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.html",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JHQDO0PgY4TxXK3VyBOynz8BKMMMoXi1w3H+7nNrv4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 17:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JHQDO0PgY4TxXK3VyBOynz8BKMMMoXi1w3H+7nNrv4E="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.wvip4j7pkm.html",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JHQDO0PgY4TxXK3VyBOynz8BKMMMoXi1w3H+7nNrv4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 17:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wvip4j7pkm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JHQDO0PgY4TxXK3VyBOynz8BKMMMoXi1w3H+7nNrv4E="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.cqu3aupeo3.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqu3aupeo3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/dist/browser/signalr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.chy3vibzq9.json",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chy3vibzq9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/libman.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.json",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akT/5iPU70gyrX1GcrIBSxPphwMG7Zl19WpRMS5N9ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 18:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-akT/5iPU70gyrX1GcrIBSxPphwMG7Zl19WpRMS5N9ns="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.yudtxe6toy.js",
+      "AssetFile": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akT/5iPU70gyrX1GcrIBSxPphwMG7Zl19WpRMS5N9ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 18:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yudtxe6toy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-akT/5iPU70gyrX1GcrIBSxPphwMG7Zl19WpRMS5N9ns="
+        }
+      ]
+    }
+  ]
+}

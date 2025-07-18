@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html",
+      "PackagePath": "staticwebassets\\chat.html"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
+      "PackagePath": "staticwebassets\\home.html"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "PackagePath": "staticwebassets\\js\\signalr\\libman.json"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LinkUp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LinkUp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.LinkUp.props",
+      "PackagePath": "build\\LinkUp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.LinkUp.props",
+      "PackagePath": "buildMultiTargeting\\LinkUp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.LinkUp.props",
+      "PackagePath": "buildTransitive\\LinkUp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

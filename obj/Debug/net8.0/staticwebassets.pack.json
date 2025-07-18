@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\index.html",
+      "PackagePath": "staticwebassets\\js\\index.html"
+    },
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "PackagePath": "staticwebassets\\js\\signalr\\libman.json"
+    },
+    {
+      "Id": "c:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LinkUp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LinkUp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LinkUp.props",
+      "PackagePath": "build\\LinkUp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LinkUp.props",
+      "PackagePath": "buildMultiTargeting\\LinkUp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LinkUp.props",
+      "PackagePath": "buildTransitive\\LinkUp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

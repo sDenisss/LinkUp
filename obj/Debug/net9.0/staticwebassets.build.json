@@ -1,0 +1,2742 @@
+{
+  "Version": 1,
+  "Hash": "85HEOGtFKYReGOTH8V9S6oQ6zWMpJChf+pQrOXsQykc=",
+  "Source": "LinkUp",
+  "BasePath": "_content/LinkUp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LinkUp\\wwwroot",
+      "Source": "LinkUp",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/home#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\6dmlva4788-chy3vibzq9.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/libman#[.{fingerprint=chy3vibzq9}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6sxj2sy54w",
+      "Integrity": "OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/chat#[.{fingerprint=dzt4298h9u}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ulhr0fe899",
+      "Integrity": "4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "home#[.{fingerprint=a68u2jpq36}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7a6jj1eszo",
+      "Integrity": "jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/home#[.{fingerprint=5ipweew5fc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/dist/browser/signalr#[.{fingerprint=cqu3aupeo3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rlm2y06vml",
+      "Integrity": "72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\hrhe5jmruy-ftho67juk0.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "chat#[.{fingerprint=ftho67juk0}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "349byl7s4g",
+      "Integrity": "40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/chat#[.{fingerprint=68jjb0c9yl}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jql3mhh734",
+      "Integrity": "yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "chat#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ftho67juk0",
+      "Integrity": "zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chat.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/chat#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "68jjb0c9yl",
+      "Integrity": "6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a68u2jpq36",
+      "Integrity": "4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/chat#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzt4298h9u",
+      "Integrity": "N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/dist/browser/signalr#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqu3aupeo3",
+      "Integrity": "rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/signalr/libman#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "chy3vibzq9",
+      "Integrity": "sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\libman.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "chat.ftho67juk0.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\hrhe5jmruy-ftho67juk0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002439024390"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftho67juk0"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU="
+        }
+      ]
+    },
+    {
+      "Route": "chat.ftho67juk0.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftho67juk0"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU="
+        }
+      ]
+    },
+    {
+      "Route": "chat.ftho67juk0.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\hrhe5jmruy-ftho67juk0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftho67juk0"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI="
+        }
+      ]
+    },
+    {
+      "Route": "chat.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\hrhe5jmruy-ftho67juk0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002439024390"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU="
+        }
+      ]
+    },
+    {
+      "Route": "chat.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZ1M2qBfqTqHRuFffQVb1Ra1rjxsL4+YTyZECLI7+CU="
+        }
+      ]
+    },
+    {
+      "Route": "chat.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\hrhe5jmruy-ftho67juk0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40hbkM2pA+RMeAMcfk4h98yXd1rvtuyFrz13czQGWAI="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.68jjb0c9yl.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002932551320"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "68jjb0c9yl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/chat.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.68jjb0c9yl.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "68jjb0c9yl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/chat.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.68jjb0c9yl.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "68jjb0c9yl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/chat.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002932551320"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ix9vb5aqOqJGHlKBNexufsU5IyVcZhCPz3pANB3q+c="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxrCWiLr7DV89M2HkqlMW5Gh3M+rvyEv+Qi24kEjaWI="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.5ipweew5fc.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.5ipweew5fc.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.5ipweew5fc.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "home.a68u2jpq36.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002816901408"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "354"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a68u2jpq36"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+        }
+      ]
+    },
+    {
+      "Route": "home.a68u2jpq36.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a68u2jpq36"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+        }
+      ]
+    },
+    {
+      "Route": "home.a68u2jpq36.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a68u2jpq36"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4="
+        }
+      ]
+    },
+    {
+      "Route": "home.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002816901408"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "354"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+        }
+      ]
+    },
+    {
+      "Route": "home.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+        }
+      ]
+    },
+    {
+      "Route": "home.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.dzt4298h9u.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000967117988"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1033"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzt4298h9u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.dzt4298h9u.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzt4298h9u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.dzt4298h9u.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzt4298h9u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000967117988"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1033"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8kdDgCHtzrz0gwInHlqylXDptPeeJ7SWBeKyt0+UDk="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 09:37:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4g015x1hvG5zW5vPSp0ZXei/9nmTvKXeMNaaqYrG9S4="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.5ipweew5fc.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.5ipweew5fc.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.5ipweew5fc.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Jul 2025 10:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.cqu3aupeo3.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032475968"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30791"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqu3aupeo3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/dist/browser/signalr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.cqu3aupeo3.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqu3aupeo3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/dist/browser/signalr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.cqu3aupeo3.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqu3aupeo3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/dist/browser/signalr.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032475968"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30791"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/dist/browser/signalr.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-72AnZUPrICQEEWHFZnHWv5aKCSqHOokrxlHKAfnXbrw="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.chy3vibzq9.json",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\6dmlva4788-chy3vibzq9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005882352941"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chy3vibzq9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/libman.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.chy3vibzq9.json",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chy3vibzq9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/libman.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.chy3vibzq9.json.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\6dmlva4788-chy3vibzq9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chy3vibzq9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signalr/libman.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.json",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\6dmlva4788-chy3vibzq9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005882352941"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.json",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLesdOTFuJPLxft7RyAeyNQTK4W4viF3FxBJOWppxLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/signalr/libman.json.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\6dmlva4788-chy3vibzq9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 15:39:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE="
+        }
+      ]
+    }
+  ]
+}
