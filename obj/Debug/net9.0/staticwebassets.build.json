@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "85HEOGtFKYReGOTH8V9S6oQ6zWMpJChf+pQrOXsQykc=",
+  "Hash": "xzlzwgUYSXJ2g/WoDtRIi8L86fDoCDNHcGB5q9sMTYs=",
   "Source": "LinkUp",
   "BasePath": "_content/LinkUp",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-ernvqbiibf.gz",
       "SourceId": "LinkUp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LinkUp",
-      "RelativePath": "css/home#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "RelativePath": "css/home#[.{fingerprint=ernvqbiibf}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "gjqm0o0shr",
+      "Integrity": "JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css"
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json"
     },
     {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\74zd515ppa-58aamn4rgr.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/registry#[.{fingerprint=58aamn4rgr}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "81gwmysp74",
+      "Integrity": "1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\7r1v3tau73-86jrjntv0x.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/login#[.{fingerprint=86jrjntv0x}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "f146juulfl",
+      "Integrity": "86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js"
+    },
+    {
       "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8jc87fu6mp-dzt4298h9u.gz",
       "SourceId": "LinkUp",
       "SourceType": "Discovered",
@@ -80,12 +122,12 @@
       "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\chat.js"
     },
     {
-      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-glnzcxz2os.gz",
       "SourceId": "LinkUp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LinkUp",
-      "RelativePath": "home#[.{fingerprint=a68u2jpq36}]?.html.gz",
+      "RelativePath": "home#[.{fingerprint=glnzcxz2os}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -94,11 +136,32 @@
       "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7a6jj1eszo",
-      "Integrity": "jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=",
+      "Fingerprint": "ttxslgjfoj",
+      "Integrity": "vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\b6xbkf5u93-5ky74gst1r.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/registry#[.{fingerprint=5ky74gst1r}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nr4gprnlhv",
+      "Integrity": "3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css"
     },
     {
       "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\boqh2n4mov-5ipweew5fc.gz",
@@ -162,6 +225,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\chat.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\ihzphh36rj-5ky74gst1r.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/login#[.{fingerprint=5ky74gst1r}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nr4gprnlhv",
+      "Integrity": "3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\nrkrny1kkl-u0lp6oe0ni.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "registry#[.{fingerprint=u0lp6oe0ni}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "baasn7bcwm",
+      "Integrity": "E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\si0s4d0q5p-mxcsq5q4pt.gz",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "login#[.{fingerprint=mxcsq5q4pt}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9nsz2mqwr8",
+      "Integrity": "O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html"
     },
     {
       "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\tijby4jwqj-68jjb0c9yl.gz",
@@ -241,11 +367,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "ernvqbiibf",
+      "Integrity": "9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ky74gst1r",
+      "Integrity": "tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "css/registry#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ky74gst1r",
+      "Integrity": "tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registry.css"
     },
     {
       "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
@@ -262,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a68u2jpq36",
-      "Integrity": "4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=",
+      "Fingerprint": "glnzcxz2os",
+      "Integrity": "zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\home.html"
@@ -311,6 +479,48 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86jrjntv0x",
+      "Integrity": "MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "js/registry#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "58aamn4rgr",
+      "Integrity": "ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\registry.js"
+    },
+    {
       "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "LinkUp",
       "SourceType": "Discovered",
@@ -351,6 +561,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\signalr\\libman.json"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mxcsq5q4pt",
+      "Integrity": "hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",
+      "SourceId": "LinkUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\",
+      "BasePath": "_content/LinkUp",
+      "RelativePath": "registry#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0lp6oe0ni",
+      "Integrity": "UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\registry.html"
     }
   ],
   "Endpoints": [
@@ -951,13 +1203,13 @@
       ]
     },
     {
-      "Route": "css/home.5ipweew5fc.css",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Route": "css/home.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-ernvqbiibf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "1.000000000000"
+          "Quality": "0.001897533207"
         }
       ],
       "ResponseHeaders": [
@@ -967,19 +1219,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "526"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -995,26 +1247,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "W/\"9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/home.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0="
         }
       ]
     },
     {
-      "Route": "css/home.5ipweew5fc.css",
+      "Route": "css/home.css",
       "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1024,7 +1268,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1394"
         },
         {
           "Name": "Content-Type",
@@ -1032,11 +1276,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-ernvqbiibf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.ernvqbiibf.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-ernvqbiibf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001897533207"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ernvqbiibf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.ernvqbiibf.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1046,7 +1435,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "ernvqbiibf"
         },
         {
           "Name": "label",
@@ -1054,13 +1443,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-9m/zfBc1OB3jqUlxshDSS8iZBki/MTJXRV02WfcBQn0="
         }
       ]
     },
     {
-      "Route": "css/home.5ipweew5fc.css.gz",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Route": "css/home.ernvqbiibf.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-ernvqbiibf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1069,7 +1458,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "526"
         },
         {
           "Name": "Content-Type",
@@ -1077,11 +1466,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 08:02:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1099,7 +1488,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "ernvqbiibf"
         },
         {
           "Name": "label",
@@ -1107,18 +1496,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-JHCEd6/O4EDbBJIlUsuMviFXOC4GkpjPoFg2FaMZBsw="
         }
       ]
     },
     {
-      "Route": "css/home.css",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Route": "css/login.5ky74gst1r.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\ihzphh36rj-5ky74gst1r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "1.000000000000"
+          "Quality": "0.002237136465"
         }
       ],
       "ResponseHeaders": [
@@ -1128,15 +1517,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "446"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.5ky74gst1r.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.5ky74gst1r.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\ihzphh36rj-5ky74gst1r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\ihzphh36rj-5ky74gst1r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002237136465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1156,19 +1706,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "W/\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
         }
       ]
     },
     {
-      "Route": "css/home.css",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
+      "Route": "css/login.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1177,7 +1727,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1132"
         },
         {
           "Name": "Content-Type",
@@ -1185,11 +1735,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1199,13 +1749,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
         }
       ]
     },
     {
-      "Route": "css/home.css.gz",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\2ze1ue6erg-5ipweew5fc.gz",
+      "Route": "css/login.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\ihzphh36rj-5ky74gst1r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1214,7 +1764,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "446"
         },
         {
           "Name": "Content-Type",
@@ -1222,11 +1772,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:35:53 GMT"
+          "Value": "Sat, 19 Jul 2025 07:05:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1244,18 +1794,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag="
         }
       ]
     },
     {
-      "Route": "home.a68u2jpq36.html",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Route": "css/registry.5ky74gst1r.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\b6xbkf5u93-5ky74gst1r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002816901408"
+          "Quality": "0.002237136465"
         }
       ],
       "ResponseHeaders": [
@@ -1265,15 +1815,313 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354"
+          "Value": "446"
         },
         {
           "Name": "ETag",
-          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/registry.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/registry.5ky74gst1r.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/registry.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/registry.5ky74gst1r.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\b6xbkf5u93-5ky74gst1r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ky74gst1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/registry.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag="
+        }
+      ]
+    },
+    {
+      "Route": "css/registry.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\b6xbkf5u93-5ky74gst1r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002237136465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/registry.css",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tW5Go5o3ScgTrTVCEJhKRbrNQCmziKFfGEA+JWyZ+pM="
+        }
+      ]
+    },
+    {
+      "Route": "css/registry.css.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\b6xbkf5u93-5ky74gst1r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6xY1KZlny/rMCQ7kekY0qfq7HHCW0aGVY6OPY77Ag="
+        }
+      ]
+    },
+    {
+      "Route": "home.glnzcxz2os.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-glnzcxz2os.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1293,13 +2141,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+          "Value": "W/\"zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a68u2jpq36"
+          "Value": "glnzcxz2os"
         },
         {
           "Name": "label",
@@ -1307,12 +2155,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+          "Value": "sha256-zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ="
         }
       ]
     },
     {
-      "Route": "home.a68u2jpq36.html",
+      "Route": "home.glnzcxz2os.html",
       "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1322,7 +2170,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "510"
+          "Value": "1106"
         },
         {
           "Name": "Content-Type",
@@ -1330,11 +2178,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+          "Value": "\"zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1344,7 +2192,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a68u2jpq36"
+          "Value": "glnzcxz2os"
         },
         {
           "Name": "label",
@@ -1352,13 +2200,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+          "Value": "sha256-zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ="
         }
       ]
     },
     {
-      "Route": "home.a68u2jpq36.html.gz",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "Route": "home.glnzcxz2os.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-glnzcxz2os.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1367,7 +2215,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354"
+          "Value": "580"
         },
         {
           "Name": "Content-Type",
@@ -1375,11 +2223,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+          "Value": "\"vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1397,7 +2245,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a68u2jpq36"
+          "Value": "glnzcxz2os"
         },
         {
           "Name": "label",
@@ -1405,18 +2253,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4="
+          "Value": "sha256-vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY="
         }
       ]
     },
     {
       "Route": "home.html",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-glnzcxz2os.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002816901408"
+          "Quality": "0.001721170396"
         }
       ],
       "ResponseHeaders": [
@@ -1426,15 +2274,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354"
+          "Value": "580"
         },
         {
           "Name": "ETag",
-          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+          "Value": "\"vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1454,13 +2302,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+          "Value": "W/\"zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+          "Value": "sha256-zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ="
         }
       ]
     },
@@ -1475,7 +2323,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "510"
+          "Value": "1106"
         },
         {
           "Name": "Content-Type",
@@ -1483,11 +2331,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY=\""
+          "Value": "\"zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1497,13 +2345,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4gIZi39J4DEV93mJ6gvHHrjKe8ZIQxiMAJG8D2Y6+rY="
+          "Value": "sha256-zD1QJZDQEkHjEFZNFAQmMLhusH2m66d+4v94osu3PSQ="
         }
       ]
     },
     {
       "Route": "home.html.gz",
-      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-a68u2jpq36.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\8vz51dxk1g-glnzcxz2os.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1512,7 +2360,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354"
+          "Value": "580"
         },
         {
           "Name": "Content-Type",
@@ -1520,11 +2368,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4=\""
+          "Value": "\"vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 10:36:55 GMT"
+          "Value": "Sat, 19 Jul 2025 08:11:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1542,7 +2390,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jx2UxArIag8P9S9ZtxqN2Qz5cgCaR3/ecDU6Z6J+Yj4="
+          "Value": "sha256-vwDfUQeolfaJIhtKDNWsquxpf1UwlfcgXNlpQIHpsaY="
         }
       ]
     },
@@ -2143,6 +2991,602 @@
       ]
     },
     {
+      "Route": "js/login.86jrjntv0x.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\7r1v3tau73-86jrjntv0x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001677852349"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86jrjntv0x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.86jrjntv0x.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86jrjntv0x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.86jrjntv0x.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\7r1v3tau73-86jrjntv0x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86jrjntv0x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\7r1v3tau73-86jrjntv0x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001677852349"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCeeabjW1Ibeeewq8c2H4PMcB5CKCmw2w45NnfJdCOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\7r1v3tau73-86jrjntv0x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-86SsE1jqodRpvJeHPipJMbeJ6CBjreZlp9AuN0hER2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.58aamn4rgr.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\74zd515ppa-58aamn4rgr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001677852349"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58aamn4rgr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/registry.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.58aamn4rgr.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58aamn4rgr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/registry.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.58aamn4rgr.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\74zd515ppa-58aamn4rgr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58aamn4rgr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/registry.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\74zd515ppa-58aamn4rgr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001677852349"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.js",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReRo6guRwrUtxlAUt3hRkhEyPuPRiPlMEr2iWEBTlKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/registry.js.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\74zd515ppa-58aamn4rgr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ej6ZjXKeBTYRX7Wq7SSDn3Clg4u0iljkvcxP9XqbUA="
+        }
+      ]
+    },
+    {
       "Route": "js/signalr/dist/browser/signalr.cqu3aupeo3.js",
       "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\dycr2tin0b-cqu3aupeo3.gz",
       "Selectors": [
@@ -2735,6 +4179,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-OjxJiEuU8nDSNkLnORYswXIL1b87/qdy9vEaOv7YfYE="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\si0s4d0q5p-mxcsq5q4pt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002100840336"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\si0s4d0q5p-mxcsq5q4pt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM="
+        }
+      ]
+    },
+    {
+      "Route": "login.mxcsq5q4pt.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\si0s4d0q5p-mxcsq5q4pt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002100840336"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxcsq5q4pt"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4="
+        }
+      ]
+    },
+    {
+      "Route": "login.mxcsq5q4pt.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxcsq5q4pt"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqHeuyLj67DipTyb+MD8DIPRzVsJgFqHdPHQL4BTje4="
+        }
+      ]
+    },
+    {
+      "Route": "login.mxcsq5q4pt.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\si0s4d0q5p-mxcsq5q4pt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:33:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxcsq5q4pt"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4p+1cOHwV/yukj5N9tuw6L3HG2npRYRZJ5CuhaYKAM="
+        }
+      ]
+    },
+    {
+      "Route": "registry.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\nrkrny1kkl-u0lp6oe0ni.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002114164905"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE="
+        }
+      ]
+    },
+    {
+      "Route": "registry.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE="
+        }
+      ]
+    },
+    {
+      "Route": "registry.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\nrkrny1kkl-u0lp6oe0ni.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs="
+        }
+      ]
+    },
+    {
+      "Route": "registry.u0lp6oe0ni.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\nrkrny1kkl-u0lp6oe0ni.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002114164905"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0lp6oe0ni"
+        },
+        {
+          "Name": "label",
+          "Value": "registry.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE="
+        }
+      ]
+    },
+    {
+      "Route": "registry.u0lp6oe0ni.html",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0lp6oe0ni"
+        },
+        {
+          "Name": "label",
+          "Value": "registry.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UsNCKTPF+mvdbK1toAqJsRdvrP/a8/OsmwJ2hhp3UjE="
+        }
+      ]
+    },
+    {
+      "Route": "registry.u0lp6oe0ni.html.gz",
+      "AssetFile": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\obj\\Debug\\net9.0\\compressed\\nrkrny1kkl-u0lp6oe0ni.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0lp6oe0ni"
+        },
+        {
+          "Name": "label",
+          "Value": "registry.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8YEjeUJwfd46JwWPRMM1qcYJrPcv6h9ptnTgKn5wWs="
         }
       ]
     }

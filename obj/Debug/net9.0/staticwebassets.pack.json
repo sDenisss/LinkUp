@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
+      "PackagePath": "staticwebassets\\css\\registry.css"
+    },
+    {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\home.html",
       "PackagePath": "staticwebassets\\home.html"
     },
@@ -25,12 +33,28 @@
       "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
+      "PackagePath": "staticwebassets\\js\\registry.js"
+    },
+    {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\signalr\\libman.json",
       "PackagePath": "staticwebassets\\js\\signalr\\libman.json"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",
+      "PackagePath": "staticwebassets\\registry.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LinkUp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

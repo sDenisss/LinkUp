@@ -6,15 +6,32 @@
     <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
-    <div class="chat-container">
-        <h2>LinkUp Messenger</h2>
+  <div class="app-container">
+    <header class="top-bar">
+      <div class="profile-info">
+        <!-- <img src="/images/default-avatar.png" alt="Avatar" class="avatar" /> -->
+        <span class="username">Мой профиль</span>
+      </div>
+    </header>
 
-        <ul id="messages"></ul>
+    <div class="main-content">
+      <aside class="chat-list">
+        <div class="chat-search">
+          <input type="text" placeholder="Поиск..." />
+        </div>
+        <ul class="chats">
+          <li class="chat-item active">Чат с Денисом</li>
+          <li class="chat-item">Группа: LinkUp Team</li>
+          <li class="chat-item">Бот: Напоминания</li>
+        </ul>
+      </aside>
 
-        <input type="text" id="messageInput" placeholder="Введите сообщение..." />
-        <button id="sendButton">Отправить</button>
+      <section class="chat-placeholder">
+        <p>Выберите чат, чтобы начать общение</p>
+      </section>
     </div>
+  </div>
 
-    <script src="/js/home.js"></script>
+  <script src="/js/home.js"></script>
 </body>
 </html>

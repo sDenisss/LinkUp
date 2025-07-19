@@ -449,7 +449,14 @@ C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\LinkUp.genrunt
 C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\ref\LinkUp.dll
 c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\tijby4jwqj-68jjb0c9yl.gz
 c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\hrhe5jmruy-ftho67juk0.gz
-c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\2ze1ue6erg-5ipweew5fc.gz
-c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\8vz51dxk1g-a68u2jpq36.gz
 c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\8jc87fu6mp-dzt4298h9u.gz
 c:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\boqh2n4mov-5ipweew5fc.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\LinkUp.sourcelink.json
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\b6xbkf5u93-5ky74gst1r.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\ihzphh36rj-5ky74gst1r.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\74zd515ppa-58aamn4rgr.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\nrkrny1kkl-u0lp6oe0ni.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\si0s4d0q5p-mxcsq5q4pt.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\7r1v3tau73-86jrjntv0x.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\2ze1ue6erg-ernvqbiibf.gz
+C:\University\Programming\Projects\LinkUp\LinkUp\obj\Debug\net9.0\compressed\8vz51dxk1g-glnzcxz2os.gz

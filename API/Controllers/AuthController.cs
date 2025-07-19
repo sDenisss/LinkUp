@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Razor;
 namespace LinkUp.API;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/")]
 public class AuthController : ControllerBase
 {
     private readonly IMediator _mediator;

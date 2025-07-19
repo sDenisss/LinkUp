@@ -74,11 +74,27 @@ public class Program
         app.UseDefaultFiles(); // Автоматически ищет index.html
         app.UseStaticFiles();  // Разрешает доступ к wwwroot
 
-        // app.UseStaticFiles(new StaticFileOptions
-        // {
-        //     FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
-        //     RequestPath = "/wwwroot"
-        // });
+        app.Use(async (context, next) =>
+        {
+            try
+            {
+                await next();
+            }
+            catch (AppException ex)
+            {
+                context.Response.StatusCode = ex.StatusCode;
+                context.Response.ContentType = "text/plain";
+                await context.Response.WriteAsync(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                context.Response.StatusCode = 500;
+                context.Response.ContentType = "text/plain";
+                await context.Response.WriteAsync("Internal server error");
+                // Логировать можно тут
+            }
+        });
+
 
         app.UseRouting();
         app.UseAuthorization();
@@ -89,27 +105,6 @@ public class Program
 
         app.MapHub<ChatHub>("/chatHub");
         // app.MapFallbackToFile("index.html");
-
-
-        // using (var scope = app.Services.CreateScope())
-        // {
-        //     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
-        //     if (!db.Users.Any())
-        //     {
-        //         var user = new User(
-        //             Guid.NewGuid(),
-        //             new Email("denis@example.com"),
-        //             "Denis",
-        //             "hash123", // временно
-        //             DateTime.UtcNow
-        //         );
-
-        //         db.Users.Add(user);
-        //         db.SaveChanges();
-        //     }
-        // }
-
 
         app.Run();
     }

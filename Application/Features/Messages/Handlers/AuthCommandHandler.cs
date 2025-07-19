@@ -27,12 +27,12 @@ public class AuthCommandHandler : IRequestHandler<AuthCommand, string>
 
         if (user == null)
         {
-            throw new ApplicationException("User not found.");
+            throw new AppException("User not found.", 401);
         }
 
-        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.HashedPassword))
+        if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.HashedPassword))
         {
-            throw new ApplicationException("Invalid credentials.");
+            throw new AppException("Invalid credentials.", 401);
         }
 
         var token = _jwt.GenerateToken(user);
