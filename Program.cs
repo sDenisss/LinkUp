@@ -77,16 +77,6 @@ public class Program
 
         // Add SignalR
         builder.Services.AddSignalR();
-
-        // ... other services ...
-
-        // In app.Use... section (or Configure in Startup.cs)
-        // app.UseAuthorization();  // Must be *before* MapHub() for authorization to work
-
-        // // Map your SignalR hub
-        // app.MapHub<ChatHub>("/chatHub"); // Adjust "/chatHub" to your actual hub path
-
-       
        
         var app = builder.Build();
 
