@@ -1,6 +1,8 @@
 // Примерные значения, позже ты будешь получать их после логина
-const chatId = "0c6b6d11-0072-43e3-8b34-b8269d90e629"; // замените на свой чат
-const senderId = "94be97d7-f1ce-4366-89f0-660de9a9c903"; // замените на свой userId
+const chatId = "c552d322-208e-4a97-817c-b21065266811"; // замените на свой чат
+const senderId = "995decbf-81a5-4fd0-b9ec-1bb523299b1f"; // замените на свой userId
+
+
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl("/chatHub") // настройка должна совпадать с сервером

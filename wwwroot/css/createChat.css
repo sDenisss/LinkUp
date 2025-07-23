@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px; /* Adjust max-width as needed */
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 50px; /* Add some space from the top */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.create-chat-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between elements */
+    margin-bottom: 20px;
+}
+
+.create-chat-form label {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin-bottom: -5px; /* Pull label closer to input */
+}
+
+.create-chat-form input[type="text"] {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: calc(100% - 30px); /* Account for padding */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.create-chat-form input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.create-chat-form button,
+#backHome {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px; /* Space from input */
+}
+
+.create-chat-form button:hover,
+#backHome:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.create-chat-form button:active,
+#backHome:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
+
+#backHome {
+    background-color: #6c757d; /* Different color for back button */
+    margin-top: 20px;
+}
+
+#backHome:hover {
+    background-color: #5a6268;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #dc3545; /* Default for error messages */
+    font-weight: 500;
+}
+
+.message.success {
+    color: #28a745; /* Green for success messages */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        border-radius: 0; /* Full width on smaller screens */
+        box-shadow: none;
+        margin-top: 0;
+        min-height: 100vh; /* Take full height on small screens */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}

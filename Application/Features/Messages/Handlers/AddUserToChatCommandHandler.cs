@@ -3,6 +3,7 @@ using LinkUp.Domain;
 using LinkUp.Infrastructure;
 using LinkUp.Persistence;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace LinkUp.Application;
 
@@ -19,7 +20,11 @@ public class AddUserToChatCommandHandler : IRequestHandler<AddUserToChatCommand,
     }
     public async Task<Guid> Handle(AddUserToChatCommand request, CancellationToken cancellationToken)
     {
-        var chat = await _db.Chats.FindAsync(request.ChatId, cancellationToken);
+        //var chat = await _db.Chats.FindAsync(request.ChatId, cancellationToken);
+        var chat = await _db.Chats
+                            .Include(c => c.Users) // Загружаем коллекцию Users, связанную с чатом
+                            .FirstOrDefaultAsync(c => c.Id == request.ChatId, cancellationToken);
+
         var addMember = await _db.Users.FindAsync(request.AddUserId, cancellationToken);
         // var chat = new Chat(request.Name, creator);
 

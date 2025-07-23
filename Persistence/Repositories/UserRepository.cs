@@ -19,9 +19,9 @@ public class UserRepository : IUserRepository
         return await _context.Users.FindAsync(userId);
     }
 
-    public async Task<User> GetByUsernameAsync(string username)
+    public async Task<User> GetByUniqueNameAsync(string uniqueName, CancellationToken cancellationToken)
     {
-        return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+        return await _context.Users.FirstOrDefaultAsync(u => u.UniqueName == uniqueName);
     }
 
     public async Task<User> GetByEmailAsync(string email)
@@ -44,4 +44,23 @@ public class UserRepository : IUserRepository
         _context.Users.Update(user); // EF Core отслеживает изменения
         await _context.SaveChangesAsync();
     }
+
+    public async Task<IEnumerable<User>> GetUsersByChatIdAsync(Guid chatId, CancellationToken cancellationToken)
+    {
+        var chat = await _context.Chats
+            .Include(c => c.Users)
+            .FirstOrDefaultAsync(c => c.Id == chatId, cancellationToken);
+
+        return chat?.Users ?? Enumerable.Empty<User>();
+    }
+
+    public async Task<IEnumerable<User>> GetByIdsAsync(IEnumerable<Guid> userIds, CancellationToken cancellationToken)
+    {
+        return await _context.Users
+            .Where(u => userIds.Contains(u.Id))
+            .ToListAsync(cancellationToken);
+    }
+
+
+
 }

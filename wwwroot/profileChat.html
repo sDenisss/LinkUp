@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Профиль чата</title>
+  <link rel="stylesheet" href="/css/profileChat.css" />
+</head>
+<body>
+  <div class="container">
+    <h2 id="chatName">Название чата</h2>
+
+    <div class="users-section">
+      <h3>Участники:</h3>
+      <ul id="userList" class="user-list"></ul>
+    </div>
+
+    <div class="add-user-section">
+      <h3>Добавить пользователя</h3>
+      <div class="add-user-form">
+        <input type="text" id="uniqueNameInput" placeholder="Уникальное имя" />
+        <button onclick="addUser()">+</button>
+      </div>
+      <p id="addUserMessage" class="message"></p>
+    </div>
+    <button type="button" id="backHome" onclick="BackHome()">Back Home</button>
+  </div>
+
+  <script src="/js/profileChat.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Создать новый чат</title>
+    <link rel="stylesheet" href="/css/createChat.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Создать новый чат</h2>
+
+        <div class="create-chat-form">
+            <label for="chatNameInput">Название чата:</label>
+            <input type="text" id="chatNameInput" placeholder="Введите название чата" />
+            <button id="createChatButton">Создать чат</button>
+        </div>
+
+        <p id="createChatStatusMessage" class="message"></p>
+
+        <button type="button" id="backHome" onclick="BackHome()">На главную</button>
+    </div>
+
+    <script src="/js/createChat.js"></script>
+</body>
+</html>

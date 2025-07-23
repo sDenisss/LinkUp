@@ -1,4 +1,5 @@
 using LinkUp.Application;
+using LinkUp.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -7,6 +8,7 @@ namespace LinkUp.API;
 
 [ApiController]
 [Route("api/")]
+
 public class AuthController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -16,11 +18,18 @@ public class AuthController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost("register")]
+    [HttpPost("registry")]
     public async Task<IActionResult> Register(RegisterUserCommand command)
     {
-        var id = await _mediator.Send(command);
-        return Ok(id);
+
+        var result = await _mediator.Send(command);
+
+        if (result.IsFailure)
+        {
+            return BadRequest(new { error = result.Error });
+        }
+
+        return Ok(result);
     }
 
     [HttpPost("login")]

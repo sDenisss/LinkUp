@@ -8,8 +8,9 @@ public class User
     public string UniqueName { get; private set; }
     public Email Email { get; private set; }
     public DateTime RegistrationDate { get; private set; }
+    public ICollection<Chat> Chats { get; set; } = new List<Chat>();
 
-    private User(){}
+    private User() { }
     // Конструктор и методы для бизнес-логики
     public User(string username, Email email, string uniqueName)
     {

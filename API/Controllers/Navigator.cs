@@ -36,7 +36,11 @@ public class Navigator : ControllerBase
         return Redirect("/profile.html");
     }
 
-
+    [HttpGet("profileChat")]
+    public IActionResult GetProfileChat()
+    {
+        return Redirect("/profileChat.html");
+    }
 
 
 }

@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\chat.html"
     },
     {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\createChat.html",
+      "PackagePath": "staticwebassets\\createChat.html"
+    },
+    {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\chat.css",
       "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\createChat.css",
+      "PackagePath": "staticwebassets\\css\\createChat.css"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\home.css",
@@ -15,6 +23,10 @@
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\profileChat.css",
+      "PackagePath": "staticwebassets\\css\\profileChat.css"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\css\\registry.css",
@@ -29,12 +41,20 @@
       "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\createChat.js",
+      "PackagePath": "staticwebassets\\js\\createChat.js"
+    },
+    {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\profileChat.js",
+      "PackagePath": "staticwebassets\\js\\profileChat.js"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\js\\registry.js",
@@ -51,6 +71,10 @@
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\profileChat.html",
+      "PackagePath": "staticwebassets\\profileChat.html"
     },
     {
       "Id": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\wwwroot\\registry.html",

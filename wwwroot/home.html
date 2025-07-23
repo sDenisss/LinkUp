@@ -2,36 +2,62 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>LinkUp Chat</title>
     <link rel="stylesheet" href="/css/home.css">
-</head>
+    <!--<link rel="stylesheet" href="/css/chat.css">-->
+ </head>
 <body>
-  <div class="app-container">
-    <header class="top-bar">
-      <div class="profile-info">
-        <!-- <img src="/images/default-avatar.png" alt="Avatar" class="avatar" /> -->
-        <span class="username">Мой профиль</span>
-      </div>
-    </header>
+    <div class="app-container">
+        <header class="top-bar">
+            <div class="profile-info">
+                <span class="username" id="myProfileLink">Мой профиль</span>
+            </div>
+            <button id="logoutButton">Выйти</button> </header>
 
-    <div class="main-content">
-      <aside class="chat-list">
-        <div class="chat-search">
-          <input type="text" placeholder="Поиск..." />
+        <div class="main-content">
+            <aside class="chat-list">
+                <ul class="chats">
+                    </ul>
+                    <button id="CreateChat">Create chat</button>
+            </aside>
+
+            <section class="chat-window" id="chatWindow"> <div class="chat-header">
+                    <h3 id="currentChatName">Выберите чат</h3> 
+                    <button id="EnterOnChatProfile">Enter on chat profile</button>
+                </div>
+                <ul id="messages" class="messages-list">
+                    </ul>
+                <div class="message-input-area">
+                    <input type="text" id="messageInput" placeholder="Введите сообщение..." disabled />
+                    <button id="sendButton" disabled>Отправить</button>
+                </div>
+            </section>
         </div>
-        <ul class="chats">
-          <li class="chat-item active">Чат с Денисом</li>
-          <li class="chat-item">Группа: LinkUp Team</li>
-          <li class="chat-item">Бот: Напоминания</li>
-        </ul>
-      </aside>
-
-      <section class="chat-placeholder">
-        <p>Выберите чат, чтобы начать общение</p>
-      </section>
     </div>
-  </div>
 
-  <script src="/js/home.js"></script>
-</body>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        // Check if crypto.randomUUID is not available
+        if (typeof crypto === 'undefined' || !crypto.randomUUID) {
+            // Provide a simple UUID v4 polyfill
+            // Note: This is a basic implementation and not cryptographically strong,
+            // but sufficient for UI unique IDs.
+            // For production-grade random UUIDs, consider a more robust library.
+            if (typeof crypto === 'undefined') {
+                window.crypto = {}; // Ensure crypto object exists
+            }
+            crypto.randomUUID = function() {
+                return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    return v.toString(16);
+                });
+            };
+            console.warn("crypto.randomUUID polyfilled for compatibility.");
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script src="/js/home.js"></script> </body>
 </html>

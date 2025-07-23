@@ -19,8 +19,17 @@ public class MessageRepository : IMessageRepository
         await _context.SaveChangesAsync();
     }
 
-    public Task<Message> GetMessagesByIdAsync(Guid messageId, CancellationToken cancellationToken)
+    // public Task<IEnumerable<Message>> GetMessagesByChatIdAsync(Guid chatId, CancellationToken cancellationToken)
+    // {
+    //     throw new NotImplementedException();
+    // }
+
+    public async Task<IEnumerable<Message>> GetMessagesByChatIdAsync(Guid chatId, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        // Убедитесь, что эта логика правильна
+        return await _context.Messages
+                             .Where(m => m.ChatId == chatId)
+                             .OrderBy(m => m.Timestamp) // Хорошо для упорядочивания сообщений
+                             .ToListAsync(cancellationToken);
     }
 }

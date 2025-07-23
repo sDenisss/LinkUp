@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using LinkUp.Domain; // Если Email - это Value Object, который маппится
-
 namespace LinkUp.Persistence;
 
 public class ApplicationDbContext : DbContext
@@ -18,68 +17,71 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // Конфигурация сущностей и их свойств
-        // Например, для User
+        // ... (User configuration remains the same) ...
         modelBuilder.Entity<User>(entity =>
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Username).IsRequired().HasMaxLength(50);
-            entity.HasIndex(e => e.Username).IsUnique(); // Уникальность имени пользователя
+            //entity.HasIndex(e => e.Username).IsUnique();
+            entity.Property(e => e.UniqueName)
+                          .IsRequired()
+                          .HasMaxLength(50);
 
-            // Маппинг Value Object Email
+            entity.HasIndex(e => e.UniqueName).IsUnique(); // <-- добавит уникальный индекс в БД
+
             entity.OwnsOne(e => e.Email, email =>
             {
                 email.Property(e => e.Value)
-                        .HasColumnName("Email") // Имя колонки в базе данных
+                        .HasColumnName("Email")
                         .IsRequired()
                         .HasMaxLength(255);
-                email.HasIndex(e => e.Value).IsUnique(); // Уникальность email
+                email.HasIndex(e => e.Value).IsUnique();
             });
 
             entity.Property(e => e.HashedPassword).IsRequired();
             entity.Property(e => e.RegistrationDate).IsRequired();
         });
 
-        // Для Chat
+
+        // For Chat
         modelBuilder.Entity<Chat>(entity =>
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Name).IsRequired().HasMaxLength(100);
             entity.Property(e => e.CreateDate).IsRequired();
 
-            // Явно определяем отношение "многие ко многим" и соединительную таблицу
-            entity.HasMany(c => c.Users) // Chat имеет много Users
-                  .WithMany() // User имеет много Chats (без обратного навигационного свойства в User)
-                  .UsingEntity(j => j.ToTable("ChatUser") // <-- Явно указываем имя соединительной таблицы
-                      .HasOne(typeof(Chat)) // Отношение к сущности Chat
-                          .WithMany()
-                          .HasForeignKey("ChatId") // <-- Имя столбца для ChatId
-                          .HasConstraintName("FK_ChatUser_Chat_ChatId"), // Опционально: имя внешнего ключа
-                      j => j.HasOne(typeof(User)) // Отношение к сущности User
-                          .WithMany()
-                          .HasForeignKey("UserId") // <-- Имя столбца для UserId
-                          .HasConstraintName("FK_ChatUser_User_UserId") // Опционально: имя внешнего ключа
+            // Correct many-to-many relationship configuration
+            entity.HasMany(c => c.Users) // Chat has many Users (via Chat's Users collection)
+                  .WithMany(u => u.Chats) // User has many Chats (via User's Chats collection)
+                  .UsingEntity(j => j.ToTable("ChatUser") // Name of the join table
+                                                          // Configure the relationship from the join table to Chat
+                      .HasOne(typeof(Chat)) // <--- FIXED: Use non-generic HasOne(typeof(TEntity))
+                          .WithMany() // Chat has many entries in the join table
+                          .HasForeignKey("ChatId") // Foreign key column in ChatUser for Chat
+                          .HasConstraintName("FK_ChatUser_Chat_ChatId"),
+                      // Configure the relationship from the join table to User
+                      j => j.HasOne(typeof(User)) // <--- FIXED: Use non-generic HasOne(typeof(TEntity))
+                          .WithMany() // User has many entries in the join table
+                          .HasForeignKey("UserId") // Foreign key column in ChatUser for User
+                          .HasConstraintName("FK_ChatUser_User_UserId")
                   );
         });
 
-        // Для Message
+        // ... (Message configuration remains the same) ...
         modelBuilder.Entity<Message>(entity =>
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Content).IsRequired().HasMaxLength(2000);
             entity.Property(e => e.Timestamp).IsRequired();
-            entity.Property(e => e.Status).IsRequired().HasConversion<string>(); // Хранить enum как строку
+            entity.Property(e => e.Status).IsRequired().HasConversion<string>();
 
-            // Настройка отношений:
-            // Сообщение относится к одному чату
             entity.HasOne<Chat>()
-                    .WithMany() // Если Chat не управляет коллекцией сообщений напрямую
+                    .WithMany()
                     .HasForeignKey(m => m.ChatId)
                     .IsRequired();
 
-            // Сообщение отправлено одним пользователем
             entity.HasOne<User>()
-                    .WithMany() // Если User не управляет коллекцией сообщений напрямую
+                    .WithMany()
                     .HasForeignKey(m => m.SenderId)
                     .IsRequired();
         });

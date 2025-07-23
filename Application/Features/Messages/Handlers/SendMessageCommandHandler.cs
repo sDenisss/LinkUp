@@ -20,7 +20,7 @@ public class SendMessageCommandHandler : IRequestHandler<SendMessageCommand, Gui
     public async Task<Guid> Handle(SendMessageCommand request, CancellationToken cancellationToken)
     {
         var message = new Message(
-            request.Id,
+            // id,
             request.ChatId,
             request.SenderId,
             request.Content,

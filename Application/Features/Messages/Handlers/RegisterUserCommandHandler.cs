@@ -3,10 +3,14 @@ using LinkUp.Domain;
 using LinkUp.Infrastructure;
 using LinkUp.Persistence;
 using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LinkUp.Application;
 
-public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, Guid>
+public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, Result>
 {
     private readonly ApplicationDbContext _db;
     private readonly IPasswordHasher _passwordHasher;
@@ -16,16 +20,37 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, G
         _passwordHasher = passwordHasher;
     }
 
-    public async Task<Guid> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+    public async Task<Result> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
     {
-        var email = new Email(request.Email);
-        var hashPassword = _passwordHasher.HashPassword(request.Password);
-        var user = new User(request.Username, email, hashPassword, request.UniqueName);
+        try
+        {
+            var email = new Email(request.Email);
+            var hashPassword = _passwordHasher.HashPassword(request.Password);
+            var user = new User(request.Username, email, hashPassword, request.UniqueName);
 
-        _db.Users.Add(user);
-        await _db.SaveChangesAsync(cancellationToken);
+            var uniqueUserExists = await _db.Users.AnyAsync(u => u.UniqueName == request.UniqueName);
+            var emailExists = await _db.Users.AnyAsync(u => u.Email.Value == request.Email);
 
-        return user.Id;
+            if (uniqueUserExists)
+            {
+                return Result.Failure("Пользователь с таким именем уже существует.");
+            }
+
+            if (emailExists)
+            {
+                throw new ApplicationException("Пользователь с таким именем уже существует.");
+            }
+
+            _db.Users.Add(user);
+            await _db.SaveChangesAsync(cancellationToken);
+
+            return Result.Success();
+        }
+        catch (DbUpdateException ex) when (ex.InnerException?.Message.Contains("duplicate key") == true)
+        {
+
+            throw new ApplicationException("Пользователь с таким именем или почтой уже существует.");
+        }
     }
 
     // private string HashPassword(string password)

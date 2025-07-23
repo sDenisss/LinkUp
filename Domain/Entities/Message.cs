@@ -17,13 +17,14 @@ public class Message
 
     // Публичный конструктор для создания новых сообщений в доменной модели
     // Здесь происходит вся начальная валидация
-    public Message(Guid id, Guid chatId, Guid senderId, string content, DateTime timestamp)
+    public Message(Guid chatId, Guid senderId, string content, DateTime timestamp)
     {
+        Id = Guid.NewGuid();
         // 1. Валидация входных данных
-        if (id == Guid.Empty)
-        {
-            throw new DomainException("Message ID cannot be empty.");
-        }
+        // if (id == Guid.Empty)
+        // {
+        //     throw new DomainException("Message ID cannot be empty.");
+        // }
         if (chatId == Guid.Empty)
         {
             throw new DomainException("Chat ID cannot be empty for a message.");
@@ -51,7 +52,7 @@ public class Message
         }
 
         // 2. Инициализация свойств после успешной валидации
-        Id = id;
+        // Id = id;
         ChatId = chatId;
         SenderId = senderId;
         Content = content;

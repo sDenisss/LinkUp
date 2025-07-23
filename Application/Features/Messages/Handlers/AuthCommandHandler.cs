@@ -30,7 +30,7 @@ public class AuthCommandHandler : IRequestHandler<AuthCommand, string>
             throw new AppException("User not found.", 401);
         }
 
-        if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.HashedPassword))
+        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.HashedPassword))
         {
             throw new AppException("Invalid credentials.", 401);
         }

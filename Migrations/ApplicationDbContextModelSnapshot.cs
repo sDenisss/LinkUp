@@ -24,16 +24,21 @@ namespace LinkUp.Migrations
 
             modelBuilder.Entity("ChatUser", b =>
                 {
-                    b.Property<Guid>("ChatId")
+                    b.Property<Guid>("ChatsId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("UsersId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("ChatId")
+                        .HasColumnType("uuid");
+
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uuid");
 
-                    b.HasKey("ChatId", "UsersId");
+                    b.HasKey("ChatsId", "UsersId");
+
+                    b.HasIndex("ChatId");
 
                     b.HasIndex("UserId");
 
@@ -109,7 +114,8 @@ namespace LinkUp.Migrations
 
                     b.Property<string>("UniqueName")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -118,7 +124,7 @@ namespace LinkUp.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Username")
+                    b.HasIndex("UniqueName")
                         .IsUnique();
 
                     b.ToTable("Users");
@@ -129,9 +135,13 @@ namespace LinkUp.Migrations
                     b.HasOne("LinkUp.Domain.Chat", null)
                         .WithMany()
                         .HasForeignKey("ChatId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
                         .HasConstraintName("FK_ChatUser_Chat_ChatId");
+
+                    b.HasOne("LinkUp.Domain.Chat", null)
+                        .WithMany()
+                        .HasForeignKey("ChatsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("LinkUp.Domain.User", null)
                         .WithMany()
