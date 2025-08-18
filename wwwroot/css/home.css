@@ -4,19 +4,24 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Make html and body take full viewport height */
-    overflow: hidden; /* Prevent overall scrollbars if not needed */
+    height: 100%;
     font-family: 'Segoe UI', sans-serif;
     background-color: #f0f2f5;
+
+    /* Учитываем безопасные зоны (для iPhone и Android с навбаром) */
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    box-sizing: border-box;
 }
 
 .app-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden; /* Prevents scrollbars from appearing if content overflows slightly */
+    overflow: hidden;
 }
-
 .top-bar {
     background-color: #0088cc;
     color: white;
@@ -278,49 +283,19 @@ html, body {
 }
 
 /* ========== Mobile-Friendly Layout Enhancements ========== */
+
 @media (max-width: 600px) {
-  body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  .top-bar {
+      padding-top: calc(10px + env(safe-area-inset-top)); /* не залезаем под status bar */
+      padding-left: calc(20px + env(safe-area-inset-left));
+      padding-right: calc(20px + env(safe-area-inset-right));
   }
 
-  .profile-panel {
-    padding: 10px;
-    font-size: 14px;
-    height: 60px; /* уменьшена */
-    background-color: #f0f0f0;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .chat-window {
+      padding-bottom: env(safe-area-inset-bottom); /* над навигационной панелью */
   }
 
-  .chat-list {
-    overflow-y: auto;
-    flex-grow: 1;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-  .chat-list .chat-item {
-    padding: 12px;
-    margin-bottom: 8px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fafafa;
-  }
-
-  /* Добавим плавность */
-  .chat-list::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .chat-list::-webkit-scrollbar-thumb {
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 3px;
+  .message-input-area {
+      padding-bottom: calc(15px + env(safe-area-inset-bottom)); 
   }
 }

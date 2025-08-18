@@ -6,6 +6,12 @@ namespace LinkUp.API;
 [Route("/")]
 public class Navigator : ControllerBase
 {
+    [HttpGet("")]
+    public IActionResult Primary()
+    {
+        return Redirect("/home.html");
+    }
+
     [HttpGet("home")]
     public IActionResult GetHome()
     {

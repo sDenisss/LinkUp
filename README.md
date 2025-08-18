@@ -35,32 +35,18 @@ LinkUp is a real-time messaging app with chat creation, user registration/login,
 
 ---
 
-## 🧱 Project Structure
-
-LinkUp/
-├── API/ # Controllers, middlewares
-├── Application/ # CQRS: Queries, Commands, Handlers
-├── Domain/ # Domain entities and enums
-├── Infrastructure/ # Email, SignalR, etc.
-├── Persistence/ # EF Core, DbContext, Migrations
-├── wwwroot/ # HTML, CSS, JavaScript
-├── Tests/ # Unit & Integration tests
-
----
-
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sDenisss/linkup.git
 cd linkup
+```
 
 2. Configure the database
-Add appsettings.json
-Edit 
+Add appsettings.json and edit 
 
 ```appsettings.json
-
 {
   "Logging": {
     "LogLevel": {
@@ -71,22 +57,28 @@ Edit
   "AllowedHosts": "*",
   
   "ConnectionStrings": {
-    "DefaultConnection": "Host=localhost;Port=5432;Database=LinkUp;Username=postgres;Password=3945"
+    "DefaultConnection": "Host=localhost;Port=<YOUR-PORT>;Database=<YOUR-DATABASE>;Username=<YOUR-USERNAME>;Password=<YOUR-PASSWORD>"
   },
 
   "Jwt": {
-    "Key": "thisisalongandsecuresecretkeyforjwttokengeneration!_12345",  
-    "Issuer": "LinkUp",
-    "Audience": "LinkUpUser"
+    "Key": "<YOUR-KEY>",  
+    "Issuer": "<YOUR-ISSUER>",
+    "Audience": "<YOUR-AUDIENCE>"
   }
 }
-
+```
 
 3. Apply EF Core migrations
 dotnet ef database update
 
 4. Run the project
+```bash
 dotnet run
+```
+or 
+```bash
+dotnet run --launch-profile https
+```
 
 5. Run frontend
-Just open http://localhost:5037/login or https://localhost:7180/login(if you run   dotnet run --launch-profile https) in your browser.
+Just open http://localhost:5037 or https://localhost:7180 (if you run dotnet run --launch-profile https) in your browser.

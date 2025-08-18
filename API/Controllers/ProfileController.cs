@@ -10,12 +10,6 @@ namespace LinkUp.API;
 // [Route("/")]
 public class ProfileController : ControllerBase
 {
-    [HttpPost]
-    public IActionResult RegisterUser()
-    {
-        return new RedirectToPageResult("/Shit"); // Перенаправляет на Razor Page
-    }
-
     [Authorize]
     [HttpGet("profile")]
     public IActionResult GetProfile()

@@ -22,10 +22,8 @@ public class ApplicationDbContext : DbContext
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Username).IsRequired().HasMaxLength(50);
-            //entity.HasIndex(e => e.Username).IsUnique();
-            entity.Property(e => e.UniqueName)
-                          .IsRequired()
-                          .HasMaxLength(50);
+            // entity.HasIndex(e => e.Username).IsUnique();
+            entity.Property(e => e.UniqueName).IsRequired().HasMaxLength(50);
 
             entity.HasIndex(e => e.UniqueName).IsUnique(); // <-- добавит уникальный индекс в БД
 
