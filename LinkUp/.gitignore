@@ -1,0 +1,103 @@
+# Сгенерированные артефакты сборки
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.bak
+*.log
+*.vs/
+.vs/
+
+# Пакеты NuGet
+packages/
+node_modules/
+
+# Файлы Visual Studio
+*.sln.docstates
+*.vsp
+*.trx
+*.userprefs
+*.config.user
+*.resharper
+*.ncrunchproj
+*.DotSettings
+*.user
+_UpgradeReport_Files/
+# Visual Studio Code specific files
+.vscode/
+
+# Конфигурационные файлы, содержащие чувствительные данные (КРИТИЧЕСКИ ВАЖНО)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+appsettings.json
+*.user.json
+*.override.json
+
+# Пользовательские секреты (ASP.NET Core User Secrets)
+.secrets/
+
+# Файлы базы данных (если они не управляются миграциями)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Файлы тестовых результатов
+TestResults/
+.teststore/
+
+# IDE-специфичные файлы и папки
+*.user
+*.user.workspace
+*.opensdf
+*.sdf
+*.tlog
+*.vcproj.filters
+*.vcxproj.user
+*.ipch
+*.aps
+*.ncb
+*.obj
+*.o
+*.out
+*.exe
+*.pch
+*.ilk
+*.aps
+*.bsc
+*.sbr
+*.map
+*.res
+*.dbmdl
+*.pfx
+*.snk
+*.pub
+*.token
+*.code-workspace
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+temp/
+
+# Резервные копии и временные файлы, созданные текстовыми редакторами
+*~
+~*
+\#*#
+.#*
+
+# Другие файлы
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Отчеты Code Coverage
+coverage.json

@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\University\\Programming\\Projects\\LinkUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\University\\Programming\\Projects\\LinkUp\\LinkUp.UnitTests\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinkUp.UnitTests\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\UnitTests\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinkUp\\Tests\\UnitTests\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinkUp\\Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\application\\features\\messages\\handlers\\addusertochatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\application\\features\\messages\\handlers\\addusertochatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\domain\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\domain\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\persistence\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\persistence\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|c:\\university\\programming\\projects\\linkup\\linkup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278FF014-FC4C-4A9E-98FA-19E3D9404040}|LinkUp\\LinkUp.csproj|solutionrelative:linkup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserTests.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp.UnitTests\\UserTests.cs",
+              "RelativeDocumentMoniker": "LinkUp.UnitTests\\UserTests.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp.UnitTests\\UserTests.cs",
+              "RelativeToolTip": "LinkUp.UnitTests\\UserTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:05:45.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserTests.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\UnitTests\\UserTests.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Tests\\UnitTests\\UserTests.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\UnitTests\\UserTests.cs",
+              "RelativeToolTip": "LinkUp\\Tests\\UnitTests\\UserTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:01:54.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\.gitignore",
+              "RelativeDocumentMoniker": "LinkUp\\.gitignore",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\.gitignore",
+              "RelativeToolTip": "LinkUp\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-08-18T11:01:04.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\appsettings.json",
+              "RelativeDocumentMoniker": "LinkUp\\appsettings.json",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\appsettings.json",
+              "RelativeToolTip": "LinkUp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-18T11:01:02.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "LinkUp\\Tests\\LinkUp.UnitTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T08:57:37.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTests.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs",
+              "RelativeToolTip": "LinkUp\\Tests\\LinkUp.UnitTests\\Domain\\UserTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T08:56:38.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddUserToChatCommandHandler.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Application\\Features\\Messages\\Handlers\\AddUserToChatCommandHandler.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Application\\Features\\Messages\\Handlers\\AddUserToChatCommandHandler.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Application\\Features\\Messages\\Handlers\\AddUserToChatCommandHandler.cs",
+              "RelativeToolTip": "LinkUp\\Application\\Features\\Messages\\Handlers\\AddUserToChatCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:38:21.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Domain\\Entities\\Chat.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Domain\\Entities\\Chat.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Domain\\Entities\\Chat.cs",
+              "RelativeToolTip": "LinkUp\\Domain\\Entities\\Chat.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:34:35.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LinkUp\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T09:59:25.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "LinkUp\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T09:57:18.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Program.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Program.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Program.cs",
+              "RelativeToolTip": "LinkUp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T09:52:41.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "LinkUp\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\University\\Programming\\Projects\\LinkUp\\LinkUp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "LinkUp\\Pages\\Index.cshtml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:23:51.654Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

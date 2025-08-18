@@ -1,0 +1,301 @@
+/* --- home.css (Adjustments for better integration) --- */
+/* (You might have these already, ensuring proper flex layout for main sections) */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+
+    /* Учитываем безопасные зоны (для iPhone и Android с навбаром) */
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+.top-bar {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes profile to left, logout to right */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    z-index: 100; /* Ensure it's above other content if scrolling */
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.1em; /* Slightly larger */
+    margin-right: 20px; /* Space from logout button */
+}
+
+#logoutButton {
+    background-color: #f44336; /* Red for logout */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+    #logoutButton:hover {
+        background-color: #d32f2f;
+    }
+
+.main-content {
+    display: flex;
+    flex: 1; /* Takes all remaining vertical space */
+    overflow: hidden; /* Crucial for preventing inner scrollbars from affecting parent */
+}
+
+.chat-list {
+    min-width: 280px; /* Allow it to be smaller */
+    max-width: 360px; /* Max width */
+    flex-shrink: 0; /* Prevents it from shrinking below min-width */
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05); /* Shadow for separation */
+}
+
+.chat-search input {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    padding: 10px; /* More padding */
+    border: 1px solid #e0e0e0;
+    border-radius: 20px; /* More rounded */
+    margin-bottom: 15px; /* More space */
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+    .chat-search input:focus {
+        border-color: #0088cc;
+    }
+
+.chats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto; /* Scroll for chat list */
+    flex-grow: 1;
+}
+
+.chat-item {
+    padding: 12px 15px; /* More padding */
+    border-radius: 8px; /* Slightly more rounded */
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    margin-bottom: 5px; /* Space between chat items */
+    display: flex;
+    align-items: center;
+}
+
+    .chat-item:hover {
+        background-color: #f0f0f0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .chat-item.active {
+        background-color: #e1f3ff;
+        font-weight: bold;
+        box-shadow: inset 3px 0 0 #0088cc; /* Blue line on active item */
+    }
+
+/* --- chat.css (The main improvements for the chat window) --- */
+
+/* Chat Window Container (right panel) */
+.chat-window {
+    flex: 1; /* This is crucial: Takes up all remaining horizontal space */
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9; /* Lighter background for the chat area */
+    border-left: 1px solid #e0e0e0; /* Subtle border from chat list */
+    overflow: hidden; /* Prevents content inside from causing scrollbars on the main window */
+}
+
+/* Chat Header (current chat name) */
+.chat-header {
+    background-color: #0088cc; /* Matches top bar */
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #006699;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+    z-index: 10; /* Ensures it's above messages when scrolling */
+    flex-shrink: 0; /* Prevents it from shrinking */
+}
+
+    .chat-header h3 {
+        margin: 0; /* Remove default margin from h3 */
+        padding: 0;
+    }
+
+/* Message List */
+.messages-list {
+    list-style: none;
+    padding: 20px; /* More padding for a breathable look */
+    margin: 0;
+    overflow-y: auto; /* Allows scrolling of messages */
+    flex-grow: 1; /* Takes all available vertical space */
+    background-color: #e5ddd5; /* WhatsApp-like background */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><path fill="%23c7c7c7" d="M0 0h100v100H0z"/><path fill="%23bbbbbb" d="M0 0l50 50l-50 50zm100 0l-50 50l50 50z"/></svg>'); /* Subtle pattern */
+    background-size: 50px 50px; /* Size of the pattern */
+    display: flex; /* Enable flexbox for messages for better alignment */
+    flex-direction: column; /* Stack messages vertically */
+}
+
+/* Individual Message Items */
+.message-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%; /* Messages don't span full width */
+    margin-bottom: 12px; /* Spacing between messages */
+    padding: 10px 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative; /* For the timestamp positioning */
+    word-break: break-word; /* Ensure long words break */
+    line-height: 1.4; /* Better readability */
+    font-size: 0.95em;
+}
+
+/* Messages from "me" */
+.my-message {
+    align-self: flex-end; /* Align to the right */
+    background-color: #dcf8c6; /* Greenish background */
+    color: #333;
+    border-bottom-right-radius: 2px; /* Subtle pointed corner */
+    margin-left: auto; /* Pushes to the right */
+}
+
+/* Messages from others */
+.other-message {
+    align-self: flex-start; /* Align to the left */
+    background-color: #ffffff; /* White background */
+    color: #333;
+    border-bottom-left-radius: 2px; /* Subtle pointed corner */
+    margin-right: auto; /* Pushes to the left */
+}
+
+/* Message Sender Name */
+.message-sender {
+    font-weight: bold;
+    font-size: 0.85em; /* Slightly smaller */
+    color: #0056b3; /* A bit darker blue for sender */
+    margin-bottom: 3px; /* Less space to content */
+    opacity: 0.9; /* Slightly faded */
+}
+
+/* Message Content */
+.message-content {
+    /* No additional styling needed here if line-height and word-break are on .message-item */
+}
+
+/* Message Timestamp */
+.message-timestamp {
+    font-size: 0.7em; /* Smaller timestamp */
+    color: #777;
+    align-self: flex-end; /* Always at the bottom right of the message bubble */
+    margin-top: 5px;
+    padding-left: 10px; /* Space from message content */
+    white-space: nowrap; /* Keep timestamp on one line */
+}
+
+/* Message Input Area */
+.message-input-area {
+    display: flex;
+    padding: 15px 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #e0e0e0;
+    align-items: center;
+    flex-shrink: 0; /* Prevents it from shrinking */
+}
+
+    .message-input-area input[type="text"] {
+        flex: 1; /* Takes most of the space */
+        padding: 12px 15px;
+        border: 1px solid #ccc;
+        border-radius: 25px; /* Pill-shaped input */
+        font-size: 16px;
+        margin-right: 10px;
+        outline: none; /* Remove outline on focus */
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .message-input-area input[type="text"]:focus {
+            border-color: #0088cc; /* Highlight on focus */
+            box-shadow: 0 0 0 3px rgba(0, 136, 204, 0.2); /* Subtle glow */
+        }
+
+    .message-input-area button {
+        padding: 12px 20px;
+        background-color: #0088cc;
+        color: white;
+        border: none;
+        border-radius: 25px; /* Pill-shaped button */
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+        min-width: 100px; /* Give send button a consistent width */
+    }
+
+        .message-input-area button:hover:not(:disabled) {
+            background-color: #006bb3;
+            transform: translateY(-1px); /* Slight lift on hover */
+        }
+
+        .message-input-area button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+/* Loading/Error/No Messages Placeholder */
+.loading-messages, .no-messages, .error-message {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+    width: 100%; /* Ensure it spans full width */
+    margin: auto; /* Center vertically */
+}
+
+/* ========== Mobile-Friendly Layout Enhancements ========== */
+
+@media (max-width: 600px) {
+  .top-bar {
+      padding-top: calc(10px + env(safe-area-inset-top)); /* не залезаем под status bar */
+      padding-left: calc(20px + env(safe-area-inset-left));
+      padding-right: calc(20px + env(safe-area-inset-right));
+  }
+
+  .chat-window {
+      padding-bottom: env(safe-area-inset-bottom); /* над навигационной панелью */
+  }
+
+  .message-input-area {
+      padding-bottom: calc(15px + env(safe-area-inset-bottom)); 
+  }
+}

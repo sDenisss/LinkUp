@@ -1,6 +1,0 @@
-@LinkUp_HostAddress = http://localhost:5037
-
-GET {{LinkUp_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
