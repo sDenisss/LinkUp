@@ -1,0 +1,282 @@
+# THIS FOR LAB 5
+
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_DB}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"  # Оставляем для подключения извне (например, DBeaver)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app_network
+
+  # Dev instance для разработки (порт 5000)
+  web-dev:
+    build: .
+    container_name: linkup_web_dev
+    ports:
+      - "5000:8080"
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DB=${DB_DB}
+      - JWT_KEY=${JWT_KEY}
+      - JWT_ISSUER=${JWT_ISSUER}
+      - JWT_AUDIENCE=${JWT_AUDIENCE}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS}
+      - SERVER_ID=dev
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  # Production instances (только через nginx)
+  web1:
+    build: .
+    container_name: linkup_web_1
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DB=${DB_NAME}
+      - JWT_KEY=${JWT_KEY}
+      - JWT_ISSUER=${JWT_ISSUER}
+      - JWT_AUDIENCE=${JWT_AUDIENCE}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS}
+      - SERVER_ID=1
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  web2:
+    build: .
+    container_name: linkup_web_2
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DB=${DB_NAME}
+      - JWT_KEY=${JWT_KEY}
+      - JWT_ISSUER=${JWT_ISSUER}
+      - JWT_AUDIENCE=${JWT_AUDIENCE}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS}
+      - SERVER_ID=2
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  web3:
+    build: .
+    container_name: linkup_web_3
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DB=${DB_NAME}
+      - JWT_KEY=${JWT_KEY}
+      - JWT_ISSUER=${JWT_ISSUER}
+      - JWT_AUDIENCE=${JWT_AUDIENCE}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS}
+      - SERVER_ID=3
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  nginx:
+    image: nginx:alpine
+    container_name: linkup_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - ./wwwroot:/usr/share/nginx/html/static:ro
+    depends_on:
+      - web1
+      - web2
+      - web3
+    networks:
+      - app_network
+
+volumes:
+  db-data:
+
+networks:
+  app_network:
+    driver: bridge
+
+# version: '3.8'
+
+# services:
+#   db:
+#     image: postgres:15-alpine
+#     environment:
+#       - POSTGRES_USER=postgres
+#       - POSTGRES_PASSWORD=3945
+#       - POSTGRES_DB=LinkUp
+#     volumes:
+#       - db-data:/var/lib/postgresql/data
+#     # УБРАТЬ порт 5432 если не нужно подключаться извне
+#     # ports:
+#     #   - "5432:5432"
+#     healthcheck:
+#       test: ["CMD-SHELL", "pg_isready -U postgres"]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+#     networks:
+#       - app_network
+
+#   # Экземпляр 1
+#   web1:
+#     build: .
+#     container_name: linkup_web_1
+#     environment:
+#       - DB_HOST=db
+#       - DB_PORT=5432
+#       - DB_USER=postgres
+#       - DB_PASSWORD=3945
+#       - DB_DB=LinkUp
+#       - JWT_KEY=thisisalongandsecuresecretkeyforjwttokengeneration!_12345
+#       - JWT_ISSUER=LinkUp
+#       - JWT_AUDIENCE=LinkUpUser
+#       - ASPNETCORE_URLS=http://+:8080
+#       - SERVER_ID=1
+#     depends_on:
+#       db:
+#         condition: service_healthy
+#     networks:
+#       - app_network
+#     # НЕ добавлять ports! Доступ только через nginx
+
+#   # Экземпляр 2
+#   web2:
+#     build: .
+#     container_name: linkup_web_2
+#     environment:
+#       - DB_HOST=db
+#       - DB_PORT=5432
+#       - DB_USER=postgres
+#       - DB_PASSWORD=3945
+#       - DB_DB=LinkUp
+#       - JWT_KEY=thisisalongandsecuresecretkeyforjwttokengeneration!_12345
+#       - JWT_ISSUER=LinkUp
+#       - JWT_AUDIENCE=LinkUpUser
+#       - ASPNETCORE_URLS=http://+:8080
+#       - SERVER_ID=2
+#     depends_on:
+#       db:
+#         condition: service_healthy
+#     networks:
+#       - app_network
+
+#   # Экземпляр 3
+#   web3:
+#     build: .
+#     container_name: linkup_web_3
+#     environment:
+#       - DB_HOST=db
+#       - DB_PORT=5432
+#       - DB_USER=postgres
+#       - DB_PASSWORD=3945
+#       - DB_DB=LinkUp
+#       - JWT_KEY=thisisalongandsecuresecretkeyforjwttokengeneration!_12345
+#       - JWT_ISSUER=LinkUp
+#       - JWT_AUDIENCE=LinkUpUser
+#       - ASPNETCORE_URLS=http://+:8080
+#       - SERVER_ID=3
+#     depends_on:
+#       db:
+#         condition: service_healthy
+#     networks:
+#       - app_network
+
+#   # Nginx
+#   nginx:
+#     image: nginx:alpine
+#     container_name: linkup_nginx
+#     ports:
+#       - "80:80"
+#       - "443:443"
+#     volumes:
+#       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+#       - ./nginx/ssl:/etc/nginx/ssl:ro
+#       - ./wwwroot:/usr/share/nginx/html/static:ro
+#     depends_on:
+#       - web1
+#       - web2
+#       - web3
+#     networks:
+#       - app_network
+
+# volumes:
+#   db-data:
+
+# networks:
+#   app_network:
+#     driver: bridge
+
+# THIS FOR LAB 4
+# version: '3.8'
+
+# services:
+#   db:
+#     image: postgres:15-alpine
+#     environment:
+#       - POSTGRES_USER=postgres
+#       - POSTGRES_PASSWORD=3945
+#       - POSTGRES_DB=LinkUp
+#     volumes:
+#       - db-data:/var/lib/postgresql/data
+#     ports:
+#       - "5432:5432"
+#     healthcheck:
+#       test: ["CMD-SHELL", "pg_isready -U postgres"]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+
+  # web:
+  #   build: .
+  #   ports:
+  #     - "5000:8080"
+  #   environment:
+  #     - DB_HOST=db
+  #     - DB_PORT=5432
+  #     - DB_USER=postgres
+  #     - DB_PASSWORD=3945
+  #     - DB_DB=LinkUp
+  #     - JWT_KEY=thisisalongandsecuresecretkeyforjwttokengeneration!_12345
+  #     - JWT_ISSUER=LinkUp
+  #     - JWT_AUDIENCE=LinkUpUser
+  #     - ASPNETCORE_URLS=http://+:8080
+  #   depends_on:
+  #     db:
+  #       condition: service_healthy
+
+# volumes:
+#   db-data:

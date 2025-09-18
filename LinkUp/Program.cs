@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace LinkUp;
 
@@ -14,14 +15,48 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        // Загружаем .env файл
+        DotNetEnv.Env.Load();
+        
         var builder = WebApplication.CreateBuilder(args);
 
+        // Получаем значения из переменных окружения
+        var dbHost = Environment.GetEnvironmentVariable("DB_HOST") ?? "localhost";
+        var dbPort = Environment.GetEnvironmentVariable("DB_PORT") ?? "5432";
+        var dbUser = Environment.GetEnvironmentVariable("DB_USER");
+        var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
+        var dbName = Environment.GetEnvironmentVariable("DB_DB");
+
+
+        // var machineName = Environment.MachineName;
+        // var processId = Environment.ProcessId;
+        // Response.Headers.Add("X-Server-Id", $"{machineName}-{processId}");
+        
+        // Формируем connection string из переменных окружения
+        var connectionString = $"Host={dbHost};Port={dbPort};Database={dbName};Username={dbUser};Password={dbPassword}";
+
+        // Логируем для проверки (без пароля)
+        // Console.WriteLine($"DB Connection: Host={dbHost}, Port={dbPort}, Database={dbName}, User={dbUser}");
+        
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(connectionString));
+
+        // Получаем JWT настройки из переменных окружения
+        var jwtKey = Environment.GetEnvironmentVariable("JWT_KEY");
+        var jwtIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER");
+        var jwtAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE");
+
+        // Проверяем что все переменные есть
+        if (string.IsNullOrEmpty(jwtKey))
+            throw new Exception("JWT_KEY is not set in environment variables");
+        if (string.IsNullOrEmpty(jwtIssuer))
+            throw new Exception("JWT_ISSUER is not set in environment variables");
+        if (string.IsNullOrEmpty(jwtAudience))
+            throw new Exception("JWT_AUDIENCE is not set in environment variables");
 
         // Добавляем поддержку Razor Pages
         builder.Services.AddRazorPages();
-        builder.Services.AddControllers(); // <== ОБЯЗАТЕЛЬНО
+        builder.Services.AddControllers();
         builder.Services.AddSignalR();
 
         builder.Services.AddEndpointsApiExplorer();
@@ -30,220 +65,96 @@ public class Program
         builder.Services.AddMediatR(cfg =>
              cfg.RegisterServicesFromAssemblyContaining<RegisterUserCommand>());
 
-
         builder.Services.AddTransient<IPasswordHasher, PasswordService>();
-        // builder.Services.AddScoped<IUserRepository, InMemoryUserRepository>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IChatRepository, ChatRepository>();
         builder.Services.AddScoped<IMessageRepository, MessageRepository>();
-
         builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
-                // Your existing TokenValidationParameters go here (Issuer, Audience, SymmetricSecurityKey, etc.)
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                    ValidAudience = builder.Configuration["Jwt:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    ValidIssuer = jwtIssuer,
+                    ValidAudience = jwtAudience,
+                    IssuerSigningKey = new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(jwtKey))
                 };
 
-                // THIS IS CRUCIAL FOR SIGNALR: Extract token from query string
                 options.Events = new JwtBearerEvents
                 {
                     OnMessageReceived = context =>
                     {
-                        var accessToken = context.Request.Query["access_token"]; // Attempt to get token from query string
+                        var accessToken = context.Request.Query["access_token"];
                         var path = context.HttpContext.Request.Path;
 
-                        // Check if the request is for the SignalR hub path
-                        if (!string.IsNullOrEmpty(accessToken) && (path.StartsWithSegments("/chatHub"))) // Adjust "/chatHub" to your actual hub path
+                        if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/chatHub"))
                         {
-                            context.Token = accessToken; // Assign the token for validation
+                            context.Token = accessToken;
                         }
                         return Task.CompletedTask;
                     }
                 };
             });
 
-        // Add Authorization policies if you have any, otherwise just AddAuthorization()
-        builder.Services.AddAuthorization(); // Required for [Authorize] attribute
-
-        // Add SignalR
+        builder.Services.AddAuthorization();
         builder.Services.AddSignalR();
        
         var app = builder.Build();
+
+
+
+        // // Автоматическое применение миграций
+        // using (var scope = app.Services.CreateScope())
+        // {
+        //     var services = scope.ServiceProvider;
+        //     try
+        //     {
+        //         var context = services.GetRequiredService<ApplicationDbContext>();
+        //         context.Database.Migrate(); // Применяет все pending миграции
+        //         Console.WriteLine("Migrations applied successfully");
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         Console.WriteLine($"Error applying migrations: {ex.Message}");
+        //         // Не бросаем исключение, чтобы приложение могло запуститься
+        //     }
+        // }
 
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
+            app.ApplyMigrations();
+            // ! this block code only for docker-compose build of responces out of server / with this block doesnt work dotnet run
+            // app.Use(async (context, next) =>
+            // {
+            //     // Вызываем следующий middleware в цепочке (это важно!)
+            //     await next();
+
+            //     // После того, как ответ сгенерирован, добавляем свой заголовок
+            //     var serverId = Environment.GetEnvironmentVariable("SERVER_ID") ?? "unknown";
+            //     context.Response.Headers.Append("X-Server-ID", serverId);
+            // });
         }
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
-
-        app.UseDefaultFiles(); // Автоматически ищет index.html
-        app.UseStaticFiles();  // Разрешает доступ к wwwroot
-
-        app.Use(async (context, next) =>
-        {
-            try
-            {
-                await next();
-            }
-            catch (AppException ex)
-            {
-                context.Response.StatusCode = ex.StatusCode;
-                context.Response.ContentType = "text/plain";
-                await context.Response.WriteAsync(ex.Message);
-            }
-            catch (Exception ex)
-            {
-                context.Response.StatusCode = 500;
-                context.Response.ContentType = "text/plain";
-                await context.Response.WriteAsync("Internal server error");
-                // Логировать можно тут
-            }
-        });
-
+        app.UseDefaultFiles();
 
         app.UseRouting();
-        app.UseAuthentication(); // Must be *before* UseAuthorization()
+        app.UseAuthentication();
         app.UseAuthorization();
-        app.MapRazorPages();  // Маршрутизация для Razor Pages
-
-        // API-эндпоинты (остаются рабочими!)
-        app.MapControllers(); // <== ОБЯЗАТЕЛЬНО для контроллеров
-
+        
+        app.MapRazorPages();
+        app.MapControllers();
         app.MapHub<ChatHub>("/chatHub");
-        // app.MapFallbackToFile("index.html");
 
         app.Run();
     }
 }
-
-
-
-
-// public class Program
-// {
-//     public static void Main(string[] args)
-//     {
-//         var builder = WebApplication.CreateBuilder(args);
-
-//         builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-//         // Добавляем поддержку Razor Pages
-//         // builder.Services.AddRazorPages();
-//         builder.Services.AddCors(options =>
-//         {
-//             options.AddPolicy("AllowSpecificOrigin",
-//                 builder => builder.WithOrigins("http://localhost:3000", "http://localhost:5037") // Replace 3000 with your React app's port
-//                                 .AllowAnyHeader()
-//                                 .AllowAnyMethod()
-//                                 .AllowCredentials());
-//         });
-//         builder.Services.AddControllers(); // <== ОБЯЗАТЕЛЬНО
-//         builder.Services.AddSignalR();
-
-//         builder.Services.AddEndpointsApiExplorer();
-//         builder.Services.AddSwaggerGen();
-
-//         // builder.Services.AddMediatR(cfg =>
-//         //      cfg.RegisterServicesFromAssemblyContaining<RegisterUserCommand>());
-//         // builder.Services.AddMediatR(cfg =>
-//         //         cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
-//         // builder.Services.AddMediatR(cfg =>
-//         // {
-//         //     cfg.LicenseKey = "eyJhbGciOiJSUzI1NiIsImtpZCI6Ikx1Y2t5UGVubnlTb2Z0d2FyZUxpY2Vuc2VLZXkvYmJiMTNhY2I1OTkwNGQ4OWI0Y2IxYzg1ZjA4OGNjZjkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2x1Y2t5cGVubnlzb2Z0d2FyZS5jb20iLCJhdWQiOiJMdWNreVBlbm55U29mdHdhcmUiLCJleHAiOiIxNzg0NDE5MjAwIiwiaWF0IjoiMTc1MjkyNjIxNyIsImFjY291bnRfaWQiOiIwMTk4MjI3MTMyN2Q3NTkxODZkMzI5YWJmNzdmMDAwYyIsImN1c3RvbWVyX2lkIjoiY3RtXzAxazBoOHBzZzM5emJhODE5YnJ6d2FiNWE0Iiwic3ViX2lkIjoiLSIsImVkaXRpb24iOiIwIiwidHlwZSI6IjIifQ.CKZt6kngXXyGip2N-rYb2k9_TDEUtKIJvG3Bq9FJALOqeiJ09gehz5ncWga2W3X3W-AvyE_7VsJxn6iMKv_W1L34yq38srswH6C7BGsi9FnXbZ0aftbawtvnghJ9WvkxDau1jV5-Y-oGjcAKfUWg7l1z60FjJj_blo9qRyg004_HuVNesbPT-nYEWmrMT1FvNPwhGLfQ8z4rQNwaTJkEGaHditFReHt05VupS5VZpn3eXwtkPxRnp5JlZuChBOGBI3H0mY-mkMLyOiubQrQIaT-jO_ULQiXVWQ4QwIgTib_FbKbclr1V3R4uSdLeox4Ya631bcLbX4hFqQ9frT86Tw";
-//         // });
-
-//         builder.Services.AddTransient<IPasswordHasher, PasswordService>();
-//         // builder.Services.AddScoped<IUserRepository, InMemoryUserRepository>();
-//         builder.Services.AddScoped<IChatRepository, ChatRepository>();
-//         builder.Services.AddScoped<IMessageRepository, MessageRepository>();
-
-//         builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
-
-//         builder.Services
-//             .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//             .AddJwtBearer(options =>
-//             {
-//                 var config = builder.Configuration;
-//                 options.TokenValidationParameters = new TokenValidationParameters
-//                 {
-//                     ValidateIssuer = true,
-//                     ValidIssuer = config["Jwt:Issuer"],
-//                     ValidateAudience = true,
-//                     ValidAudience = config["Jwt:Audience"],
-//                     ValidateLifetime = true,
-//                     IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(config["Jwt:Key"])),
-//                     ValidateIssuerSigningKey = true
-//                 };
-//             });
-
-//         builder.Services.AddAuthorization();
-
-       
-       
-//         var app = builder.Build();
-
-//         if (app.Environment.IsDevelopment())
-//         {
-//             app.UseSwagger();
-//             app.UseSwaggerUI();
-//         }
-
-//         app.UseHttpsRedirection();
-//         app.UseStaticFiles();
-
-//         app.UseDefaultFiles(); // Автоматически ищет index.html
-//         app.UseStaticFiles();  // Разрешает доступ к wwwroot
-
-//         app.UseCors("AllowSpecificOrigin");
-
-//         app.Use(async (context, next) =>
-//         {
-//             try
-//             {
-//                 await next();
-//             }
-//             catch (AppException ex)
-//             {
-//                 context.Response.StatusCode = ex.StatusCode;
-//                 context.Response.ContentType = "text/plain";
-//                 await context.Response.WriteAsync(ex.Message);
-//             }
-//             catch (Exception ex)
-//             {
-//                 context.Response.StatusCode = 500;
-//                 context.Response.ContentType = "text/plain";
-//                 await context.Response.WriteAsync("Internal server error");
-//                 // Логировать можно тут
-//             }
-//         });
-
-
-//         app.UseRouting();
-//         app.UseAuthorization();
-//         // app.MapRazorPages();  // Маршрутизация для Razor Pages
-
-//         // API-эндпоинты (остаются рабочими!)
-//         app.MapControllers(); // <== ОБЯЗАТЕЛЬНО для контроллеров
-
-//         app.MapHub<ChatHub>("/chatHub");
-//         // app.MapFallbackToFile("index.html");
-
-//         app.Run();
-//     }
-// }
-
-

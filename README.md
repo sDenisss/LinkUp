@@ -68,6 +68,22 @@ Add appsettings.json and edit
 }
 ```
 
+Create .env 
+```env
+# Database
+DB_HOST=localhost
+DB_PORT=<PORT>
+DB_USER=<DB_USER>
+DB_PASSWORD=<PASSWORD>
+DB_DB=<DB-NAME>
+
+# JWT
+JWT_KEY=<JWT-KEY>
+JWT_ISSUER=<JWT_ISSUER>
+JWT_AUDIENCE=<JWT_AUDIENCE>
+```
+
+
 3. Apply EF Core migrations
 dotnet ef database update
 

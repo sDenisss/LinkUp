@@ -81,6 +81,8 @@ TestResults/
 *.pub
 *.token
 *.code-workspace
+*.crt
+*.key
 
 # Логи и временные файлы
 *.log
